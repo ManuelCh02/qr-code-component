@@ -17,3 +17,51 @@
 html {
     font-size: 62.5%;
 }
+
+body {
+    background: var(--light-gray);
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    width: 90%;
+    max-width: 321px;
+    height: auto;
+    background: var(--white);
+    border-radius: 16px;
+}
+
+.qr-container img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.scan-qr {
+    margin: 16px 0;
+    text-align: center;
+    padding: 0 22px;
+    font-family: var(--main-font);
+}
+
+.scan-qr p:nth-child(1){
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+
+.scan-qr p:nth-child(2) {
+    margin-top: 12px;
+    font-size: 1.6rem;
+    color: var(--grayish-blue);
+}
